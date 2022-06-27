@@ -1,7 +1,7 @@
 #faire une classe "cerveau" ou l'on choisi le type de cerveau (qtable, deep, deepqtable, machine learning)
 
-import NeuralNetwork
-import ConvolutionalNeuralNetwork
+from . import NeuralNetwork
+from . import ConvolutionalNeuralNetwork
 
 BRAIN_TYPE_NEURAL_NETWORK = 0
 BRAIN_TYPE_CONVOLUTIONAL_NEURAL_NETWORK = 1
