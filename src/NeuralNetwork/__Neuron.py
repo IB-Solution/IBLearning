@@ -1,7 +1,7 @@
 import random, time
 from numba import jit, njit
 import numpy as np
-from NeuralNetwork.__ActivationFunction import *
+from .__ActivationFunction import *
 
 NEURON_CELL = 0
 

@@ -4,7 +4,7 @@
 import numpy as np
 from numba import njit
 import json
-from ConvolutionalNeuralNetwork.__ActivationFunction import *
+from .__ActivationFunction import *
 
 
 NEURON_INPUT_CELL = 0

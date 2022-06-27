@@ -6,7 +6,7 @@ import random
 import json
 import numpy as np
 from numba import jit, njit
-from NeuralNetwork.__Neuron import *
+from .__Neuron import *
 
 NETWORK_POSITION_INPUT = 0
 NETWORK_POSITION_HIDDEN = 1
