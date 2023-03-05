@@ -8,7 +8,7 @@ config: PyModuleGenerator.PyModuleGeneratorConfig = PyModuleGenerator.PyModuleGe
     modulePath="D:\Dev\Projects\IBLearning\IBLearning",
     buildFolder="D:\Dev\Projects\IBLearning\\build",
     moduleName="IBLearning",
-    moduleVersion="1.0.0",
+    moduleVersion="1.0.3",
     moduleDescription="IBLearning is a Python module that contains a set of tools to help you to make your own machine learning algorithms.",
     moduleLongDescription=long_description,
     moduleLongDescriptionType="text/markdown",
@@ -18,7 +18,6 @@ config: PyModuleGenerator.PyModuleGeneratorConfig = PyModuleGenerator.PyModuleGe
     moduleAuthorEmail="alix.hamidou@gmail.com",
     moduleLicense="MIT",
 
-    packages=["IBLearning"],
     moduleDependencies=[
         "nltk>=1.1.0"
     ],
