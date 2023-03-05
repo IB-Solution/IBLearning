@@ -1,16 +1,10 @@
-# IBLearning
-
-## Modules
-
-### TextClustering
-Allow text classification using KMeansCluster methods
-
-#### Example
-```python
 from IBLearning.MachineLearning.KMeansCluster import TextClustering
 
 # text to classify
 texts = [
+    "hello world",
+    "hello world",
+    "hello world",
     "hello world",
     "this world is beautiful",
     "issou is a meme",
@@ -27,7 +21,7 @@ for text in texts:
     textClustering.AddText(text)
 
 # If needed, you can rebase the clusters with a new accuracy (create new clusters)
-textClustering.RebaseClusterMean(accuracyMin=0.75)
+textClustering.RebaseClusterMean(accuracyMin=0.50)
 
 # Get the clusters
 clusters = textClustering.clusters
@@ -37,7 +31,3 @@ texts = clusters[0].texts
 
 # Get the first cluster words with count
 words = clusters[0].words
-```
-
-### Possible improvements
-- When processing a text mean, whe can use the word count to improve the accuracy of the mean
